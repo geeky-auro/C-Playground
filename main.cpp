@@ -106,6 +106,45 @@ int main()
     cout<<('b'+5)<<endl;
     cout<<(char)74<<endl;//====>'J'
 
+    //Class-4
+
+    /*
+    The range of Numbers we can store :-
+    -2^(n-1) to 2^(n-1) and we find out binary of negative number using 2's complement
+    Note:By default int,long,float,double ...etc all are signed-bit numbers
+    that is MSB is used as the signed bit leaving the N-1 bit to be used to store variablesInorder to secure our MSB we can use unsigned keyword..!
+    This will save our one more bit that is will replace
+    our signed bit with the value of our number
+    */
+
+    char anum=234567;
+    cout<<anum<<endl;
+
+    /*
+    In the above instance basically the number 234567 will be treated
+    as 4 byte and after that the Least Significant Byte will be
+    considered as Value for char ..!
+
+    The above will Yield --> 'G' which a result of last byte of 4 byte integer.
+    */
+
+    /* Unsigned will always hold +ve Number */
+
+    unsigned int bi=-123;
+
+    /*
+    =>1st of all it will store -123 as 4byte number ..! How?
+        It will represent 123 in binary then,
+        It will take out 2's Complement
+        Then the final 4 bytes will be copied to "bi" variable
+        Now "bi" gonna treat the number as unsigned which will result a huge
+        number.
+    */
+
+    cout<<bi<<endl;
+
+    //Class-5
+
 
 
 
