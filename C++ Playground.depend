@@ -1,7 +1,15 @@
 # depslib dependency file v1.0
-1659782007 source:d:\c++ playground\c++ playground\main.cpp
+1659886444 source:d:\c++ playground\c++ playground\main.cpp
 	<iostream>
 
 1659548718 source:d:\c++ playground\c++ playground\src\codersground.cpp
+	<iostream>
+
+1659885643 source:d:\c++ playground\c++ playground\comparison.cpp
+	<iostream>
+
+1659885045 d:\c++ playground\c++ playground\comparison.h
+
+1659886240 source:d:\c++ playground\c++ playground\compare.cpp
 	<iostream>
 

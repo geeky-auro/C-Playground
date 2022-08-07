@@ -144,7 +144,49 @@ int main()
     cout<<bi<<endl;
 
     //Class-5
+    //Operators in Detail..!
+    //Farenheit to Celceius
 
+    int fah;
+    cout<<"Enter Fah Value"<<endl;
+    cin>>fah;
+    // C=(F-32)*5/9
+    int celcius=(5.0/9.0)*(fah-32);
+    //Note Double/int-->Double OR Double/DOuble---> DOuble
+    //int/int-->Int
+    cout<<"Celcius Value is "<<celcius<<endl;
+
+    int l,m;
+    cout<<"Nter L and M"<<endl;
+    cin>>l>>m;
+    /*
+    All these will provide Boolean Value
+    >
+    <
+    >=
+    <=
+    !=
+    */
+
+    bool isEqual =(l==m);
+    bool isGreater=(l>m);
+    bool isSmaller=(l<m);
+
+    cout<<"Are they Equal " << isEqual<<endl;
+    cout<<"Is L Greater "<< isGreater<<endl;
+    cout<<"is L less"<<isSmaller<<endl;
+
+    //Logical Operators
+    bool third=isEqual && isGreater;//ALways False
+    bool fourth=isEqual || isGreater;
+    cout<<"NotEqual "<<!isEqual<<endl;
+
+
+ double ia = 55.5;
+    int ib = 55;
+    //ia = ia % 10;
+    //ib = ib % 10;
+    //cout << ia << " "  << ib;
 
 
 
