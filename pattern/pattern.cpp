@@ -91,6 +91,91 @@ int main(){
                     i++;
                 }
 
+                /** \brief
+                 *
+                 * \param
+                 * \param
+                 * \return
+                 *
+
+                         1
+                         23
+                         345
+                         4567
+
+
+                 */
+
+                 i=1,k=0;
+                 while(i<=n){
+                    int j=1;
+                    k=i;
+                    while(j<=i){
+                        cout<<k;
+                        k++;
+                        j++;
+                    }
+                    cout<<endl;
+                    i++;
+                 }
+
+
+                 i=1;
+                 k=0;
+                 int gaps=0;
+                 while(i<=n){
+            		gaps=n-i;
+                    while(gaps>=1){
+                        cout<<" ";
+                        gaps--;
+                    }
+                    int j=1;
+                    k=i;
+                    while(j<=i){
+                        cout<<k;
+                        k++;
+                        j++;
+                    }
+                    cout<<endl;
+                    i++;
+                 }
+
+                 /** \brief
+                  *
+                  * \param
+                  * \param
+                  * \return
+
+                  *Star Pattern
+
+
+                  */
+
+                   i=1;
+                   gaps=0;
+
+    while(i<=n){
+        gaps=n-i;
+        while(gaps>=1){
+            cout<<" ";
+            gaps--;
+        }
+        int j=1;
+        while(j<=i){
+            cout<<"*";
+            j++;
+        }
+        int k=1;
+        while(k<=i-1){
+            cout<<"*";
+            k++;
+        }
+        cout<<endl;
+        i++;
+    }
+
+
+
 
 
 
