@@ -175,6 +175,57 @@ int main(){
     }
 
 
+    /*
+    n=4
+    ABCD
+    ABCD
+    ABCD
+    ABCD
+
+    if n=5
+        ABCDE
+        ABCDE
+        ABCDE
+        ABCDE
+        ABCDE
+
+    Simple logic to be used is 'A'+j-1
+    */
+    i=1;
+    while (i<=n){
+
+        int j=1;
+        while(j<=n){
+            cout<<(char)('A'+j-1);
+            j++;
+        }
+        cout<<endl;
+        i++;
+
+    }
+
+    /*
+    N=4
+    ABCD
+    BCDE
+    CDEF
+    DEFG
+
+    */
+        cout<<endl;
+    i=1;
+    while(i<=n){
+        int j=1;
+        char startingChar='A'+i-1;
+        while(j<=n){
+            cout<<(char)(startingChar+j-1);
+            j++;
+        }
+
+        cout<<endl;
+        i++;
+    }
+
 
 
 
