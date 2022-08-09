@@ -4,6 +4,7 @@ using namespace std;
 int main(){
 
     cout<<"Welcome to patterns"<<endl;
+    cout<<(char)('A'+5-1)<<endl;
 
     /** \brief
      *
@@ -225,6 +226,36 @@ int main(){
         cout<<endl;
         i++;
     }
+
+    /** \brief
+     *
+     * \param
+     * \param
+     * \return
+     *
+    E
+    DE
+    CDE
+    BCDE
+    ABCDE
+     */
+
+
+    i=1;
+    int ki=n;
+    while(i<=n){
+        int j=1;
+        char start='A'+ki-1;
+        while(j<=i){
+            cout<<(char)start;
+            start=start+1;
+            j++;
+        }
+        ki--;
+        cout<<endl;
+        i++;
+    }
+
 
 
 
