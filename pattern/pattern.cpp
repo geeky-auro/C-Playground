@@ -257,8 +257,78 @@ int main(){
     }
 
 
+    i=n;
+        while(i>=1){
+        int k=1;
+        while(k<=i){
+            cout<<i;
+            k++;
+        }
 
+        cout<<endl;
+        i--;
+    }
 
+     i=1;
 
+    while(i<=n){
+
+        int space=1;
+        while(space<=n-i){
+            cout<<" ";
+            space++;
+        }
+        int j=1;
+        while(j<=i){
+            cout<<"*";
+            j++;
+        }
+
+        int k=1;
+        while(k<=i-1){
+            cout<<"*";
+            k++;
+        }
+
+        cout<<endl;
+        i++;
+
+    }
+
+    /*
+    Question: https://github.com/amazon01FireStick/Store-images/blob/main/pattern.png
+    */
+
+    i=1;
+    while(i<=n){
+        int space=1;
+        while(space<=n-i){
+            cout<<" ";
+            space++;
+        }
+        int j=1,k;
+        k=i;
+        while(j<=i){
+            cout<<k;
+            k++;
+            j++;
+        }
+        int l=1,m=2*i-2;
+        while(l<i){
+            cout<<m;
+            m--;
+            l++;
+        }
+
+        cout<<endl;
+        i++;
+    }
 
 }
+
+
+
+
+
+
+
