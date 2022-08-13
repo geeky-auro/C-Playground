@@ -29,6 +29,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
 🌟cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
 🌟Sum or Product- **https://gist.github.com/geeky-auro/3041f696175b823ae155bca4c96a17c9** <br>
+🌟Terms of AP- **https://gist.github.com/geeky-auro/c3857ba1f1584e772753aad22c4eca55** <br>
 
 
 
