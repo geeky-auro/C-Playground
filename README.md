@@ -19,15 +19,15 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🔸If the programmer's intent is unknown, allow the programmer to specify it by providing manual control. <br>
 
 ## Some Important PDF's
-Flowcharts: https://github.com/amazon01FireStick/OnlyPictures/blob/main/flow%20charts.pdf <br>
-Installation of CodeBlocks: https://github.com/amazon01FireStick/OnlyPictures/blob/main/installation.pdf <br>
-Getting Started with C++: https://github.com/amazon01FireStick/OnlyPictures/blob/main/starting.pdf <br>
-Conditionals and Loops: https://github.com/amazon01FireStick/OnlyPictures/blob/main/loops.pdf <br>
-Patterns: https://github.com/amazon01FireStick/OnlyPictures/blob/main/pattern.pdf <br>
-Operators,Scope of Variables,Loops: https://github.com/amazon01FireStick/OnlyPictures/blob/main/operators.pdf <br>
+🌟Flowcharts: https://github.com/amazon01FireStick/OnlyPictures/blob/main/flow%20charts.pdf <br>
+🌟Installation of CodeBlocks: https://github.com/amazon01FireStick/OnlyPictures/blob/main/installation.pdf <br>
+🌟Getting Started with C++: https://github.com/amazon01FireStick/OnlyPictures/blob/main/starting.pdf <br>
+🌟Conditionals and Loops: https://github.com/amazon01FireStick/OnlyPictures/blob/main/loops.pdf <br>
+🌟Patterns: https://github.com/amazon01FireStick/OnlyPictures/blob/main/pattern.pdf <br>
+🌟Operators,Scope of Variables,Loops: https://github.com/amazon01FireStick/OnlyPictures/blob/main/operators.pdf <br>
 ## Some Important Gists
-Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
-cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
+🌟Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
+🌟cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
 
 
 
