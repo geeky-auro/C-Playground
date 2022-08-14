@@ -30,6 +30,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
 🌟Sum or Product- **https://gist.github.com/geeky-auro/3041f696175b823ae155bca4c96a17c9** <br>
 🌟Terms of AP- **https://gist.github.com/geeky-auro/c3857ba1f1584e772753aad22c4eca55** <br>
+🌟Reverse of a number- **https://gist.github.com/geeky-auro/85da337aa087218d734c22446ed47adf** <br>
 
 
 
