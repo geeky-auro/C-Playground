@@ -33,7 +33,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Reverse of a number- **https://gist.github.com/geeky-auro/85da337aa087218d734c22446ed47adf** <br>
 🌟Binary to decimal- **https://gist.github.com/geeky-auro/8a883bf5d0f63987348d72c4d923aa38** <br>
 🌟Decimal to Binary- **https://gist.github.com/geeky-auro/7bb66b36bae3210e0b7c9e29b7e7376a** <br>
-
+🌟Square Root (Integral)- **https://gist.github.com/geeky-auro/67a8bb9a39d2857bbb44cd5e3e64472b** <br>
 
 
 
