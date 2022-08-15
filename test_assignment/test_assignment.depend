@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1660584756 source:d:\c++ playground\c++ playground\test_assignment\main.cpp
+	<iostream>
+	<climits>
+
