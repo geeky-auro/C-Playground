@@ -25,18 +25,19 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Conditionals and Loops: https://github.com/amazon01FireStick/OnlyPictures/blob/main/loops.pdf <br>
 🌟Patterns: https://github.com/amazon01FireStick/OnlyPictures/blob/main/pattern.pdf <br>
 🌟Operators,Scope of Variables,Loops: https://github.com/amazon01FireStick/OnlyPictures/blob/main/operators.pdf <br>
+🌟Functions in C++ : https://github.com/amazon01FireStick/OnlyPictures
 ## Some Important Gists
 🌟Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
-🌟cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
+⭐cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
 🌟Sum or Product- **https://gist.github.com/geeky-auro/3041f696175b823ae155bca4c96a17c9** <br>
 🌟Terms of AP- **https://gist.github.com/geeky-auro/c3857ba1f1584e772753aad22c4eca55** <br>
-🌟Reverse of a number- **https://gist.github.com/geeky-auro/85da337aa087218d734c22446ed47adf** <br>
+⭐Reverse of a number- **https://gist.github.com/geeky-auro/85da337aa087218d734c22446ed47adf** <br>
 🌟Binary to decimal- **https://gist.github.com/geeky-auro/8a883bf5d0f63987348d72c4d923aa38** <br>
 🌟Decimal to Binary- **https://gist.github.com/geeky-auro/7bb66b36bae3210e0b7c9e29b7e7376a** <br>
 🌟Square Root (Integral)- **https://gist.github.com/geeky-auro/67a8bb9a39d2857bbb44cd5e3e64472b** <br>
-🌟Combinations(nCr)- **https://github.com/geeky-auro/C-Playground/blob/main/functions/main.cpp** <br>
+⭐Combinations(nCr)- **https://github.com/geeky-auro/C-Playground/blob/main/functions/main.cpp** <br>
+🌟Member of Fibonacci- **https://gist.github.com/geeky-auro/5992602f14ebdbccb24a77dc74dc055f** <br>
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
-
 
 
