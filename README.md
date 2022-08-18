@@ -44,6 +44,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Arrange Numbers in Array- **https://gist.github.com/geeky-auro/34ab91a8dc6fab23aaae3d1d57142560** <br>
 🌟Swap Alternate- **https://gist.github.com/geeky-auro/a2f14a931e05bc3bc53316b0afa4e7dc** <br>
 🌟Find Unique- **https://gist.github.com/geeky-auro/aa77039fa4c4b433fb880ce2bc023e0b**  <br>
+⭐Find Duplicate- **https://gist.github.com/geeky-auro/7d32ab2b726bf0d58ef472c7842e0f75** <br>
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
 
