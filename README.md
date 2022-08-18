@@ -39,6 +39,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Member of Fibonacci- **https://gist.github.com/geeky-auro/5992602f14ebdbccb24a77dc74dc055f** <br>
 ⭐Array Sum- **https://gist.github.com/geeky-auro/4dd6617a3fdf6be5c2b6003da6ac8788** <br>
 ⭐Linear Search- **https://gist.github.com/geeky-auro/c798d745d2341df42070b1a8e5f4cf3f#file-linear_search-cpp** <br>
+⭐Arrange Numbers in Array- **https://gist.github.com/geeky-auro/34ab91a8dc6fab23aaae3d1d57142560** <br>
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
 
