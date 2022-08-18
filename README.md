@@ -25,7 +25,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Conditionals and Loops: https://github.com/amazon01FireStick/OnlyPictures/blob/main/loops.pdf <br>
 🌟Patterns: https://github.com/amazon01FireStick/OnlyPictures/blob/main/pattern.pdf <br>
 🌟Operators,Scope of Variables,Loops: https://github.com/amazon01FireStick/OnlyPictures/blob/main/operators.pdf <br>
-🌟Functions in C++ : https://github.com/amazon01FireStick/OnlyPictures
+🌟Functions in C++ : https://github.com/amazon01FireStick/OnlyPictures  <br>
+⭐Array Important Gists: https://gist.github.com/geeky-auro/bdb1512fa2c58f7c6e52ae615cb9cfe3  <br>
 ## Some Important Gists
 🌟Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
 ⭐cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
