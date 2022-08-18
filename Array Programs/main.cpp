@@ -23,7 +23,7 @@ void printArray(int *arr,int n){
     }
 }
 
-void reverseArray(int ar[],int n){
+void reverseArray(int *ar,int n){
     int b[n];
     copy(ar,ar+n,b);
     for(int i=n-1,j=0;i>=0;i--,j++){
