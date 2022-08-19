@@ -46,7 +46,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Find Unique- **https://gist.github.com/geeky-auro/aa77039fa4c4b433fb880ce2bc023e0b**  <br>
 ⭐Find Duplicate- **https://gist.github.com/geeky-auro/7d32ab2b726bf0d58ef472c7842e0f75** <br>
 🌟Intersection of Two Arrays II- **https://gist.github.com/geeky-auro/97f8558a1e7c3c60f9b05b158f70e716**  <br>
-
+🌟Pair Sum- **https://gist.github.com/geeky-auro/391f92e9539a2ff10a822050ec858258** <br>
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
 
