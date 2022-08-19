@@ -2,7 +2,7 @@
  A Repo for C++ Concepts and Programs.
 
 ## Why C++?
-As of September 2020, C++ is the fourth most popular programming language globally behind C, Java and Python, and – according to the latest TIOBE index – is also the fastest growing. <br>
+As of September 2020, C++ is the fourth most popular programming language globally behind C, Java and Python, and – according to the latest **TIOBE** index – is also the fastest growing. <br>
 In any large system, you typically find C++ in the lower-level and performance-critical parts. Such parts of a system are often not seen by end-users or even by developers of other parts of the system, so I sometimes refer to C++ as an invisible foundation of everything. <br>
 
 ## Philosophy from Wikipedia
@@ -45,6 +45,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Swap Alternate- **https://gist.github.com/geeky-auro/a2f14a931e05bc3bc53316b0afa4e7dc** <br>
 🌟Find Unique- **https://gist.github.com/geeky-auro/aa77039fa4c4b433fb880ce2bc023e0b**  <br>
 ⭐Find Duplicate- **https://gist.github.com/geeky-auro/7d32ab2b726bf0d58ef472c7842e0f75** <br>
+🌟Intersection of Two Arrays II- **https://gist.github.com/geeky-auro/97f8558a1e7c3c60f9b05b158f70e716**  <br>
+
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
 
