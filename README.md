@@ -40,15 +40,19 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Combinations(nCr)- **https://github.com/geeky-auro/C-Playground/blob/main/functions/main.cpp** <br>
 🌟Member of Fibonacci- **https://gist.github.com/geeky-auro/5992602f14ebdbccb24a77dc74dc055f** <br>
 ⭐Array Sum- **https://gist.github.com/geeky-auro/4dd6617a3fdf6be5c2b6003da6ac8788** <br>
-⭐Linear Search- **https://gist.github.com/geeky-auro/c798d745d2341df42070b1a8e5f4cf3f#file-linear_search-cpp** <br>
 ⭐Arrange Numbers in Array- **https://gist.github.com/geeky-auro/34ab91a8dc6fab23aaae3d1d57142560** <br>
 🌟Swap Alternate- **https://gist.github.com/geeky-auro/a2f14a931e05bc3bc53316b0afa4e7dc** <br>
 🌟Find Unique- **https://gist.github.com/geeky-auro/aa77039fa4c4b433fb880ce2bc023e0b**  <br>
 ⭐Find Duplicate- **https://gist.github.com/geeky-auro/7d32ab2b726bf0d58ef472c7842e0f75** <br>
 🌟Intersection of Two Arrays II- **https://gist.github.com/geeky-auro/97f8558a1e7c3c60f9b05b158f70e716**  <br>
 🌟Pair Sum- **https://gist.github.com/geeky-auro/391f92e9539a2ff10a822050ec858258** <br>
-🌟Triplet Sum- **https://gist.github.com/geeky-auro/496d753557da13373d58cc6eb03615c3**  <br>  
+🌟Triplet Sum- **https://gist.github.com/geeky-auro/496d753557da13373d58cc6eb03615c3**  <br> 
+
+
+## Searching and Sorting
 🌟Sort 0 1- **https://gist.github.com/geeky-auro/5037ea51cac378ae50439f7bedae3458** <br>
+⭐Linear Search- **https://gist.github.com/geeky-auro/c798d745d2341df42070b1a8e5f4cf3f#file-linear_search-cpp** <br>
+🌟Binary Search- **https://gist.github.com/geeky-auro/d3cf298bab34140802eae93e299b631e** <br>
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
 
