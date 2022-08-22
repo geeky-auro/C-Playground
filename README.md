@@ -55,5 +55,6 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Binary Search- **https://gist.github.com/geeky-auro/d3cf298bab34140802eae93e299b631e** <br>
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
+🌟Check Number sequence- **https://gist.github.com/geeky-auro/8306f5d133c207d400e1d9defe8378b9** <br>   
 
 
