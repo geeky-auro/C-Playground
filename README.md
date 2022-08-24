@@ -56,6 +56,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Selection Sort- **https://gist.github.com/geeky-auro/0a8750b424a38235805a8efbe3e26f52** <br>
 🌟Bubble Sort- **https://gist.github.com/geeky-auro/4083081f2fe43266e0956cce343f166c**  <br>
 🌟Insetion Sort- **https://gist.github.com/geeky-auro/dee397206eda15c2ba67dc4c70b7648a** <br>
+🌟Code Merge Two Sorted Arrays- **https://gist.github.com/geeky-auro/2f1523aaef82a921a47f92d73c301a27** <br>
 
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
