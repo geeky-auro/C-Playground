@@ -27,7 +27,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Operators,Scope of Variables,Loops: https://github.com/amazon01FireStick/OnlyPictures/blob/main/operators.pdf <br>
 🌟Functions in C++ : https://github.com/amazon01FireStick/OnlyPictures  <br>
 ⭐Array Important Gists: https://gist.github.com/geeky-auro/bdb1512fa2c58f7c6e52ae615cb9cfe3  <br>
-🌟Arrays:https://github.com/amazon01FireStick/OnlyPictures/blob/main/arrays.pdf <br>
+🌟Arrays: https://github.com/amazon01FireStick/OnlyPictures/blob/main/arrays.pdf <br>
+🌟Searching and Sorting: https://github.com/amazon01FireStick/OnlyPictures/blob/main/Searching%20and%20Sorting%20Algorithm.pdf <br>
 ## Some Important Gists
 🌟Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
 ⭐cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
@@ -57,6 +58,10 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Bubble Sort- **https://gist.github.com/geeky-auro/4083081f2fe43266e0956cce343f166c**  <br>
 🌟Insetion Sort- **https://gist.github.com/geeky-auro/dee397206eda15c2ba67dc4c70b7648a** <br>
 🌟Code Merge Two Sorted Arrays- **https://gist.github.com/geeky-auro/2f1523aaef82a921a47f92d73c301a27** <br>
+
+## Additional Questions for Practice:-
+Binary Search: https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/
+Sorting: https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/
 
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
