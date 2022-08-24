@@ -22,7 +22,6 @@ for(int i=0;i<n-1;i++){
 
 void bubblesort(int *arr,int n){
     for(int i=0;i<n-1;i++){
-
         for(int j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
                 int temp=arr[j];
@@ -30,6 +29,26 @@ void bubblesort(int *arr,int n){
                 arr[j+1]=temp;
             }
         }
+    }
+
+}
+
+void insertionSort(int *arr,int n){
+
+    for(int i=0;i<n;i++){
+        int count=0,element=arr[i],index=i;
+        for(int j=i-1;j>=0 && element<arr[j];j--){
+                index=j;
+            count++;
+        }
+        for(int k=i-1,l=0;k>=0;k--,l++){
+            if(l==count){
+                break;
+            }
+            arr[k+1]=arr[k];
+        }
+        arr[index]=element;
+
     }
 
 }
@@ -50,7 +69,8 @@ int main()
         cin>>arr[i];
     }
  //   selectionSort(arr,n);
- bubblesort(arr,n);
+ //   bubblesort(arr,n);
+      insertionSort(arr,n);
     printArray(arr,n);
 
     return 0;
