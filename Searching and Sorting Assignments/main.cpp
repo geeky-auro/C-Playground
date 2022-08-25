@@ -48,6 +48,46 @@ for(int i=0,k=0;i<n;i++){
 
 }
 
+void rotate(int *input, int d, int n)
+{
+    for(int i=0;i<d && i<n;i++){
+        int temp=input[0];
+        for(int i=0;i<n;i++){
+            input[i]=input[i+1];
+        }
+        input[n-1]=temp;
+    }
+}
+
+void reverse(int startingIndex,int *arr, int n){
+
+    for(int i=startingIndex;i<n;i++){
+            if(i<n-i-1){
+        int temp=arr[i];
+        arr[i]=arr[n-i-1];
+        arr[n-i-1]=temp;
+        }
+    }
+
+
+}
+
+void trick_rotate(int *arr,int d,int n){
+
+  if(d>=n && n!=0 ){
+        d=d%n;
+    }
+    else{
+        return;
+    }
+    reverse(0,arr,d);
+   reverse(n-d-1,arr,n);
+   reverse(0,arr,n);
+   reverse(0,arr,n-d);
+}
+
+
+
 
 void printArray(int *arr,int n){
 for(int i=0;i<n;i++){
@@ -67,7 +107,10 @@ int main()
     }
 
    // pushzeros(arr,n);
-   simplePushZeros(arr,n);
+   // simplePushZeros(arr,n);
+  // rotate(arr,2,n);
+  //reverse(arr,n);
+  trick_rotate(arr,2,n);
     printArray(arr,n);
 
     return 0;
