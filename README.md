@@ -58,7 +58,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Bubble Sort- **https://gist.github.com/geeky-auro/4083081f2fe43266e0956cce343f166c**  <br>
 🌟Insetion Sort- **https://gist.github.com/geeky-auro/dee397206eda15c2ba67dc4c70b7648a** <br>
 🌟Code Merge Two Sorted Arrays- **https://gist.github.com/geeky-auro/2f1523aaef82a921a47f92d73c301a27** <br>
-
+🌟Push Zeros to end- **https://gist.github.com/geeky-auro/65841ff318486602431adc66a794a6a5**
 ## Additional Questions for Practice:-
 Binary Search: https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/
 Sorting: https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/
@@ -68,6 +68,6 @@ Sorting: https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tut
 🌟Check Number sequence- **https://gist.github.com/geeky-auro/8306f5d133c207d400e1d9defe8378b9** <br>   
 
 ## Certificate:-
-Certificate of Completion: **https://github.com/amazon01FireStick/OnlyPictures/blob/main/CN_Certificate_2807b1322734bdaa.pdf** <br>
+📜Certificate of Completion: **https://github.com/amazon01FireStick/OnlyPictures/blob/main/CN_Certificate_2807b1322734bdaa.pdf** <br>
 
 
