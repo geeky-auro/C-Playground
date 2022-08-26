@@ -162,6 +162,54 @@ void simplifiedsort012(int *arr, int n){
 
 }
 
+void sumOfTwoArrays(int *arr1, int size1, int *arr2, int size2, int *output)
+{       cout<<"Detailed Process"<<endl;
+    //Write your code here
+        int size=0;
+    if(size1>size2){
+        size=size1+1;
+    }
+    else{
+        size=size2+1;
+    }
+    int i=size-1,j=size1-1,k=size2-1,carry=0;
+
+
+    while(i>=0){
+            /*
+        if(size1<=0 || j<0){
+            output[i]=0+arr2[k]+carry;
+        }
+        else if(size2<=0 || k<0){
+            output[i]=arr1[j]+0+carry;
+        }
+        */
+        if((k<0 && j<0) || i==0){
+            output[i]=carry;
+            break;
+        }
+        if(k<0){
+            output[i]=arr1[j]+0+carry;
+        }
+        else if(j<0){
+            output[i]=0+arr2[k]+carry;
+        }
+        else{
+        output[i]=arr1[j]+arr2[k]+carry;
+        }
+
+
+        carry=output[i]/10;
+        output[i]=output[i]%10;
+
+
+        cout<<"Carry is "<<carry<<endl;
+        k--;
+        j--;
+        i--;
+    }
+}
+
 
 
 void printArray(int *arr,int n){
@@ -176,10 +224,19 @@ int main()
     int n;
     cin>>n;
     int *arr=new int[100];
+        int *arr1=new int[100];
 
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+
+    int m;
+    cin>>m;
+     for(int i=0;i<m;i++){
+        cin>>arr1[i];
+    }
+
+    int *output=new int[100];
 
    // pushzeros(arr,n);
    // simplePushZeros(arr,n);
@@ -189,8 +246,16 @@ int main()
  // trick_rotate(arr,2,n);
    // cout<<"Second largest is "<<secondLargest(arr,n)<< endl;
    //sort012(arr,n);
-   simplifiedsort012(arr,n);
-    printArray(arr,n);
+  // simplifiedsort012(arr,n);
+   int size=0;
+    if(n>m){
+        size=n+1;
+    }
+    else{
+        size=m+1;
+    }
+  sumOfTwoArrays(arr,n,arr1,m,output);
+    printArray(output,size);
 
     return 0;
 }
