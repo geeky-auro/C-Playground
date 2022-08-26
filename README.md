@@ -60,6 +60,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Code Merge Two Sorted Arrays- **https://gist.github.com/geeky-auro/2f1523aaef82a921a47f92d73c301a27** <br>
 🌟Push Zeros to end- **https://gist.github.com/geeky-auro/65841ff318486602431adc66a794a6a5** <br>
 🌟Rotate array- **https://gist.github.com/geeky-auro/a85eb25383285799566d07385d6b806c** <br>
+🌟Check Array Rotation- **https://gist.github.com/geeky-auro/0c4a4650c3bdd1378d32230930457b70** <br>
 ## Additional Questions for Practice:-
 Binary Search: https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/
 Sorting: https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/

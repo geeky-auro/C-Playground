@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>
 
 using namespace std;
 
@@ -86,6 +87,24 @@ void trick_rotate(int *arr,int d,int n){
    reverse(0,arr,n-d);
 }
 
+int secondLargest(int *arr, int n){
+    int largest=INT_MIN,secondLarge=INT_MIN;
+    if(n<=1){
+        return INT_MIN;
+    }
+    for(int i=0;i<n;i++){
+
+        if(arr[i]>largest){
+            secondLarge=largest;
+            largest=arr[i];
+        }
+        else if(arr[i]> secondLarge && arr[i]<largest && secondLarge < largest){
+            secondLarge=arr[i];
+        }
+
+    }
+    return secondLarge;
+}
 
 
 
@@ -110,7 +129,9 @@ int main()
    // simplePushZeros(arr,n);
   // rotate(arr,2,n);
   //reverse(arr,n);
-  trick_rotate(arr,2,n);
+
+ // trick_rotate(arr,2,n);
+    cout<<"Second largest is "<<secondLargest(arr,n)<< endl;
     printArray(arr,n);
 
     return 0;
