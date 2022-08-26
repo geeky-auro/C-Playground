@@ -107,6 +107,62 @@ int secondLargest(int *arr, int n){
 }
 
 
+void sort012(int *arr, int n)
+{
+    //Write your code here
+    int c_0=0,c_1=0,c_2=0;
+    for(int i=0;i<n;i++){
+        if(arr[i]==0){
+            c_0++;
+        }
+        else if(arr[i]==1){
+            c_1++;
+        }
+        else{
+            c_2++;
+        }
+    }
+    int i=0;
+    while(i<c_0){
+        arr[i++]=0;
+    }
+    int j=i;
+    while(j<n-c_1){
+        arr[j++]=1;
+        i++;
+    }
+    while(i<n){
+        arr[i++]=2;
+    }
+
+}
+
+void simplifiedsort012(int *arr, int n){
+
+    int i=0,nz=0,nt=n-1;
+    while(i<n &&i<=nt){
+        if(arr[i]==0){
+              int temp=arr[i];
+            arr[i]=arr[nz];
+            arr[nz]=temp;
+            nz++;
+        }
+        else if(arr[i]==2){
+                int temp=arr[i];
+            arr[i]=arr[nt];
+            arr[nt]=temp;
+            nt--;
+            continue;
+
+        }
+
+        i++;
+    }
+
+
+}
+
+
 
 void printArray(int *arr,int n){
 for(int i=0;i<n;i++){
@@ -131,7 +187,9 @@ int main()
   //reverse(arr,n);
 
  // trick_rotate(arr,2,n);
-    cout<<"Second largest is "<<secondLargest(arr,n)<< endl;
+   // cout<<"Second largest is "<<secondLargest(arr,n)<< endl;
+   //sort012(arr,n);
+   simplifiedsort012(arr,n);
     printArray(arr,n);
 
     return 0;
