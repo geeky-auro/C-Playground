@@ -163,7 +163,7 @@ void simplifiedsort012(int *arr, int n){
 }
 
 void sumOfTwoArrays(int *arr1, int size1, int *arr2, int size2, int *output)
-{       cout<<"Detailed Process"<<endl;
+{
     //Write your code here
         int size=0;
     if(size1>size2){
@@ -173,17 +173,7 @@ void sumOfTwoArrays(int *arr1, int size1, int *arr2, int size2, int *output)
         size=size2+1;
     }
     int i=size-1,j=size1-1,k=size2-1,carry=0;
-
-
     while(i>=0){
-            /*
-        if(size1<=0 || j<0){
-            output[i]=0+arr2[k]+carry;
-        }
-        else if(size2<=0 || k<0){
-            output[i]=arr1[j]+0+carry;
-        }
-        */
         if((k<0 && j<0) || i==0){
             output[i]=carry;
             break;
@@ -198,12 +188,8 @@ void sumOfTwoArrays(int *arr1, int size1, int *arr2, int size2, int *output)
         output[i]=arr1[j]+arr2[k]+carry;
         }
 
-
         carry=output[i]/10;
         output[i]=output[i]%10;
-
-
-        cout<<"Carry is "<<carry<<endl;
         k--;
         j--;
         i--;
