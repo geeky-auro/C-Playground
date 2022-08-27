@@ -48,6 +48,9 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Intersection of Two Arrays II- **https://gist.github.com/geeky-auro/97f8558a1e7c3c60f9b05b158f70e716**  <br>
 🌟Pair Sum- **https://gist.github.com/geeky-auro/391f92e9539a2ff10a822050ec858258** <br>
 🌟Triplet Sum- **https://gist.github.com/geeky-auro/496d753557da13373d58cc6eb03615c3**  <br> 
+⭐Length Of a String- **https://gist.github.com/geeky-auro/f38306264c5c64a305f5e29305217d7c** <br>
+⭐Check String Palindrome - **https://gist.github.com/geeky-auro/bd2f5db787e398578f0218ad3da111ff** <br>
+⭐Replace Character- **
 
 
 ## Searching and Sorting
@@ -62,6 +65,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Rotate array- **https://gist.github.com/geeky-auro/a85eb25383285799566d07385d6b806c** <br>
 🌟Check Array Rotation- **https://gist.github.com/geeky-auro/0c4a4650c3bdd1378d32230930457b70** <br>
 🌟Sort 0 1 2- **https://gist.github.com/geeky-auro/689bfecfcf870357e87898a759846308** <br>
+
+
 ## Additional Questions for Practice:-
 Binary Search: https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/ <br>
 Sorting: https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/ <br>
