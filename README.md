@@ -54,6 +54,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Replace Character- **https://gist.github.com/geeky-auro/ee276a2ead128a5b9934388f005f2e91** <br>
 ⭐Trim Spaces- **https://gist.github.com/geeky-auro/45697b5613984729622704f3d3efab88** <br>
 ⭐Reverse Word Wise- **https://gist.github.com/geeky-auro/8d66654079dafddec4cfa3c511e4e27c** <br>
+🌟Print All Substrings- **https://gist.github.com/geeky-auro/186be106ffd21e3253411df9899bc7d2** <br>
 
 
 ## Searching and Sorting

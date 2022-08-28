@@ -81,11 +81,35 @@ void reverseStringWordWise(char input[]) {
     }
 }
 
+void printAllSubstrings(char ch[]){
+
+    /*
+    a
+    ab
+    abc
+    b
+    bc
+    c
+    */
+    for(int i=0;ch[i]!='\0';i++){
+            for(int k=i;ch[k]!='\0';k++){
+            for(int j=i;j<=k;j++){
+            cout<<ch[j];
+            }
+               cout<<endl;
+        }
+
+
+    }
+
+}
+
 int main()
 {
     char ch[1000];
     //cin>>ch;
     cin.getline(ch,1000,'\n');
-    reverseStringWordWise(ch);
+    //reverseStringWordWise(ch);
+    printAllSubstrings(ch);
     return 0;
 }
