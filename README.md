@@ -52,6 +52,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Check String Palindrome - **https://gist.github.com/geeky-auro/bd2f5db787e398578f0218ad3da111ff** <br>
 ⭐Replace Character- **https://gist.github.com/geeky-auro/ee276a2ead128a5b9934388f005f2e91** <br>
 ⭐Trim Spaces- **https://gist.github.com/geeky-auro/45697b5613984729622704f3d3efab88** <br>
+⭐Reverse Word Wise- **https://gist.github.com/geeky-auro/8d66654079dafddec4cfa3c511e4e27c** <br>
 
 
 ## Searching and Sorting
