@@ -50,7 +50,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Triplet Sum- **https://gist.github.com/geeky-auro/496d753557da13373d58cc6eb03615c3**  <br> 
 ⭐Length Of a String- **https://gist.github.com/geeky-auro/f38306264c5c64a305f5e29305217d7c** <br>
 ⭐Check String Palindrome - **https://gist.github.com/geeky-auro/bd2f5db787e398578f0218ad3da111ff** <br>
-⭐Replace Character- **
+⭐Replace Character- **https://gist.github.com/geeky-auro/ee276a2ead128a5b9934388f005f2e91** <br>
+⭐Trim Spaces- **https://gist.github.com/geeky-auro/45697b5613984729622704f3d3efab88** <br>
 
 
 ## Searching and Sorting
