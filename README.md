@@ -29,6 +29,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Array Important Gists: https://gist.github.com/geeky-auro/bdb1512fa2c58f7c6e52ae615cb9cfe3  <br>
 🌟Arrays: https://github.com/amazon01FireStick/OnlyPictures/blob/main/arrays.pdf <br>
 🌟Searching and Sorting: https://github.com/amazon01FireStick/OnlyPictures/blob/main/Searching%20and%20Sorting%20Algorithm.pdf <br>
+🌟cin.getline()- https://www.geeksforgeeks.org/getline-string-c/ <br>
 ## Some Important Gists
 🌟Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
 ⭐cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
