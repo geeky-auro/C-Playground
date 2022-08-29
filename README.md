@@ -55,6 +55,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Trim Spaces- **https://gist.github.com/geeky-auro/45697b5613984729622704f3d3efab88** <br>
 ⭐Reverse Word Wise- **https://gist.github.com/geeky-auro/8d66654079dafddec4cfa3c511e4e27c** <br>
 🌟Print All Substrings- **https://gist.github.com/geeky-auro/186be106ffd21e3253411df9899bc7d2** <br>
+⭐Column Wise Sum- **https://gist.github.com/geeky-auro/8e2ff6c0ac065b2a534fc17a16ae9fff** <br>
+🌟Largest Row or Column- **https://gist.github.com/geeky-auro/0478deecb312a179da2e3de62395a925** <br>
 
 ## Side Notes
 ✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
