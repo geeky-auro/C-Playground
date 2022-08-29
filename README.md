@@ -56,7 +56,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Reverse Word Wise- **https://gist.github.com/geeky-auro/8d66654079dafddec4cfa3c511e4e27c** <br>
 🌟Print All Substrings- **https://gist.github.com/geeky-auro/186be106ffd21e3253411df9899bc7d2** <br>
 
-
+## Side Notes
+✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
 ## Searching and Sorting
 🌟Sort 0 1- **https://gist.github.com/geeky-auro/5037ea51cac378ae50439f7bedae3458** <br>
 ⭐Linear Search- **https://gist.github.com/geeky-auro/c798d745d2341df42070b1a8e5f4cf3f#file-linear_search-cpp** <br>
