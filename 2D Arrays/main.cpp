@@ -141,7 +141,9 @@ void wavePrint(int **input, int nRows, int mCols)
 
 void spiralPrint(int **input, int nRows, int nCols)
 {
-
+    if(nRows==0 || nCols==0){
+        return;
+    }
     if(nRows==1 && nCols==1){
         cout<<input[0][0];
         return;
@@ -159,30 +161,34 @@ void spiralPrint(int **input, int nRows, int nCols)
         }
         return;
     }
-    int s_row=0,e_row=nRows-1,s_column=0,e_column=nCols-1;
-    while(s_row<e_row && s_column<e_column){
+    int s_row=0,e_row=nRows-1,s_column=0,e_column=nCols-1,count=0;
+    while((count<=nRows*nCols) && (s_row<=e_row || s_column<=e_column)){
         int j=s_column;
-    while(j<=e_column){
+    while((count<nRows*nCols) && j<=e_column){
         cout<<input[s_row][j]<<" ";
         j++;
+        count++;
     }
     s_row++;
     int k=s_row;
-    while(k<=e_row){
+    while((count<nRows*nCols) && k<=e_row){
         cout<<input[k][e_column]<<" ";
         k++;
+        count++;
     }
     e_column--;
     int l=e_column;
-    while(l>=s_column){
+    while((count<nRows*nCols) && l>=s_column){
         cout<<input[e_row][l]<<" ";
         l--;
+        count++;
     }
     e_row--;
     int m=e_row;
-    while(m>=s_row){
+    while((count<nRows*nCols) && m>=s_row){
         cout<<input[m][s_column]<<" ";
         m--;
+        count++;
     }
     s_column++;
     }
