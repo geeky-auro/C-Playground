@@ -131,12 +131,60 @@ void wavePrint(int **input, int nRows, int mCols)
             cout<<input[j][i]<<" ";
         }
     }
-
         else{
              for(int j=nRows-1;j>=0;j--){
                 cout<<input[j][i]<<" ";
             }
             }
+    }
+}
+
+void spiralPrint(int **input, int nRows, int nCols)
+{
+
+    if(nRows==1 && nCols==1){
+        cout<<input[0][0];
+        return;
+    }
+
+    if(nRows==1 && nCols==0){
+        for(int i=0;i<nCols;i++){
+            cout<<input[0][i]<<" ";
+        }
+        return;
+    }
+    if(nCols==1 && nRows==0){
+         for(int i=0;i<nRows;i++){
+            cout<<input[i][0]<<" ";
+        }
+        return;
+    }
+    int s_row=0,e_row=nRows-1,s_column=0,e_column=nCols-1;
+    while(s_row<e_row && s_column<e_column){
+        int j=s_column;
+    while(j<=e_column){
+        cout<<input[s_row][j]<<" ";
+        j++;
+    }
+    s_row++;
+    int k=s_row;
+    while(k<=e_row){
+        cout<<input[k][e_column]<<" ";
+        k++;
+    }
+    e_column--;
+    int l=e_column;
+    while(l>=s_column){
+        cout<<input[e_row][l]<<" ";
+        l--;
+    }
+    e_row--;
+    int m=e_row;
+    while(m>=s_row){
+        cout<<input[m][s_column]<<" ";
+        m--;
+    }
+    s_column++;
     }
 }
 
@@ -153,7 +201,8 @@ int main()
         cin>>arr[i][j];
     }
   }
-wavePrint(arr,rows,columns);
+  spiralPrint(arr,rows,columns);
+//wavePrint(arr,rows,columns);
 
   //findLargest(arr,rows,columns);
 //  printArray(arr,rows,columns);
