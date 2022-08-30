@@ -59,6 +59,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Column Wise Sum- **https://gist.github.com/geeky-auro/8e2ff6c0ac065b2a534fc17a16ae9fff** <br>
 🌟Largest Row or Column- **https://gist.github.com/geeky-auro/0478deecb312a179da2e3de62395a925** <br>
 ⭐Wave Print- **https://gist.github.com/geeky-auro/4dacf06fc71fcd566d5b6c2c7ca144c7** <br>
+🌟Check Permutation- **https://gist.github.com/geeky-auro/05dff08438fe744d005c4bde1b1e0e88** <br>
 
 ## Side Notes
 ✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
@@ -74,6 +75,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Rotate array- **https://gist.github.com/geeky-auro/a85eb25383285799566d07385d6b806c** <br>
 🌟Check Array Rotation- **https://gist.github.com/geeky-auro/0c4a4650c3bdd1378d32230930457b70** <br>
 🌟Sort 0 1 2- **https://gist.github.com/geeky-auro/689bfecfcf870357e87898a759846308** <br>
+
 
 
 ## Additional Questions for Practice:-
