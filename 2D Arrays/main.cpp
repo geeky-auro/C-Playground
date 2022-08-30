@@ -108,10 +108,36 @@ void findLargest(int **input, int nRows, int mCols)
         else{
             cout<<"Column "<<index<<" "<<max_sum;
         }
+}
 
+/** \brief
+ *
+ * \param
+ * \param
+ * \return
+ *  10 20 30
+    40 50 60
+    70 80 90
 
+    10 40 70 80 50 20 30 60 90
+ */
 
+void wavePrint(int **input, int nRows, int mCols)
+{
+    //Write your code here
+    for(int i=0;i<mCols;i++){
+        if(i%2==0){
+        for(int j=0;j<nRows;j++){
+            cout<<input[j][i]<<" ";
+        }
+    }
 
+        else{
+             for(int j=nRows-1;j>=0;j--){
+                cout<<input[j][i]<<" ";
+            }
+            }
+    }
 }
 
 int main()
@@ -127,8 +153,9 @@ int main()
         cin>>arr[i][j];
     }
   }
+wavePrint(arr,rows,columns);
 
-  findLargest(arr,rows,columns);
+  //findLargest(arr,rows,columns);
 //  printArray(arr,rows,columns);
 
 
