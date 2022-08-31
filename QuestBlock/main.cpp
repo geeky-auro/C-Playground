@@ -84,13 +84,47 @@ void removeConsecutiveDuplicates(char input[]){
     cout<<input;
 
 }
+
+void reverseEachWord(char input[]) {
+    // Write your code here
+    int i=0,init=0;
+    while(i<strlen(input)){
+        if(input[i]==' '){
+            int k=i-1;
+            while(init<=k){
+                char temp=input[init];
+                input[init]=input[k];
+                input[k]=temp;
+                k--;
+                init++;
+            }
+            init=i+1;
+            i++;
+            continue;
+        }
+
+        if(i==strlen(input)-1){
+            int k=i;
+            while(init<=k){
+                char temp=input[k];
+                input[k]=input[init];
+                input[init]=temp;
+                init++;
+                k--;
+            }
+        }
+        i++;
+    }
+
+}
+
+
 int main()
 {
     int size = 1e6;
-    char str1[size];
-   // char str2[size];
-    cin >> str1;
-    // cout << (isPermutation(str1, str2) ? "true" : "false");
-    removeConsecutiveDuplicates(str1);
+    char str[size];
+    cin.getline(str, size);
+    reverseEachWord(str);
+    cout << str;
     return 0;
 }
