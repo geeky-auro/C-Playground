@@ -103,14 +103,33 @@ void removeAllOccurrencesOfChar(char input[], char c) {
     }
 }
 
+char highestOccurringChar(char input[]) {
+    int *count=new int[256];
+    for(int i=0;i<256;i++){
+        count[i]=0;
+    }
+    for(int j=0;j<strlen(input);j++){
+        int freqIndex=(int) input[j];
+        count[freqIndex]++;
+    }
+    int maxFreq=0;
+    char maxFreqChar;
+    for(int k=97;k<=122;k++){
+        if(count[k]>maxFreq){
+            maxFreq=count[k];
+            maxFreqChar=(char)k;
+        }
+    }
+    return maxFreqChar;
+
+}
+
+
 int main()
 {
     int size = 1e6;
     char str[size];
-    cin.getline(str, size);
-    char c;
-    cin >> c;
-    removeAllOccurrencesOfChar(str, c);
-    cout << str;
+    cin >> str;
+    cout << highestOccurringChar(str);
     return 0;
 }

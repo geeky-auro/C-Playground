@@ -63,6 +63,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Remove Consecutive Duplicates- **https://gist.github.com/geeky-auro/1cdcf7b3d8c9a2c95bc0de736e4e672c** <br>
 🌟Reverse Each Word- **https://gist.github.com/geeky-auro/b8c979c9490a88bcec6dcaf52da588cd** <br>
 🌟Remove character- **https://gist.github.com/geeky-auro/f1ba2240cc2ae0259c754010ae5cf15b** <br>
+🌟Highest Occuring Character- **https://gist.github.com/geeky-auro/d201f6d0955d5d5ecba8c01840297751** <br>
 
 ## Side Notes
 ✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
