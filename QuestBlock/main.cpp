@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include <climits>
+#include <string>
 
 using namespace std;
 /*
@@ -124,12 +125,44 @@ char highestOccurringChar(char input[]) {
 
 }
 
+string getCompressedString(string &input) {
+
+    input=input+";";
+    char lastCharacter=input.at(0);
+    string newString="";
+    int lastIndex=1,count=1;
+    for(int i=1;i<input.length();i++){
+        char ch=input.at(i);
+     cout<<ch<<" "<<i<<" "<<count<<endl;
+        if(ch!=lastCharacter){
+                if(count>1){
+                    newString=newString+lastCharacter+to_string(count);
+                }else{
+                    newString=newString+lastCharacter;
+                }
+            lastCharacter=ch;
+            count=1;
+            continue;
+        }
+        count++;
+
+    }
+    input=newString;
+    return input;
+
+
+
+}
+
 
 int main()
 {
+
     int size = 1e6;
-    char str[size];
+    string str;
     cin >> str;
-    cout << highestOccurringChar(str);
+    str = getCompressedString(str);
+    cout << str << endl;
+
     return 0;
 }

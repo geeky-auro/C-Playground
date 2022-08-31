@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1661955383 source:d:\c++ playground\c++ playground\questblock\main.cpp
+1661968271 source:d:\c++ playground\c++ playground\questblock\main.cpp
 	<iostream>
 	<cstring>
 	<climits>
+	<string>
 

@@ -64,7 +64,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Reverse Each Word- **https://gist.github.com/geeky-auro/b8c979c9490a88bcec6dcaf52da588cd** <br>
 🌟Remove character- **https://gist.github.com/geeky-auro/f1ba2240cc2ae0259c754010ae5cf15b** <br>
 🌟Highest Occuring Character- **https://gist.github.com/geeky-auro/d201f6d0955d5d5ecba8c01840297751** <br>
-
+🌟Compress the String- **https://gist.github.com/geeky-auro/564b5513cf2300bfd14853d31a11435b** <br>
 ## Side Notes
 ✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
 ## Searching and Sorting
@@ -83,8 +83,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 
 
 ## Additional Questions for Practice:-
-Binary Search: https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/ <br>
-Sorting: https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/ <br>
+🖋Binary Search: https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/ <br>
+🖋Sorting: https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/ <br>
 
 ## Important Coding Questions:-
 🌟Second Largest- **https://gist.github.com/geeky-auro/179b7af8535bf640524d90c3f39320cc** <br>
@@ -94,5 +94,6 @@ Sorting: https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tut
 
 ## Certificate:-
 📜Certificate of Completion: **https://github.com/amazon01FireStick/OnlyPictures/blob/main/CN_Certificate_2807b1322734bdaa.pdf** <br>
+📜Certificate of Excellence: **https://github.com/amazon01FireStick/OnlyPictures/blob/main/CN_Certificate_b815f24fef97cd3e.pdf** <br>
 
 
