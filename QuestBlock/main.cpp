@@ -31,40 +31,7 @@ bool isPermutation(char str1[],char str2[]){
 
 }
 
-/*void removeConsecutiveDuplicates(char input[]) {
-    // Write your code here
-    int *count=new int[256];
-    for(int i=0;i<256;i++){
-        count[i]=0;
-    }
 
-    for(int k=0;k<strlen(input);k++){
-        int freqIndex=(int)input[k];
-        count[freqIndex]++;
-    }
-    for(int i=0;i<strlen(input);i++){
-        input[i]='\0';
-    }
-    int sizeCount=0;
-    for(int j=95,i=0;j<123 && i<strlen(input);j++,i++){
-        if(count[j]>0){
-                sizeCount++;
-           //cout<<(char)j;
-        }
-    }
-    char *arr=new char[sizeCount];
-    int i=0,j=95;
-    while(i<sizeCount && j<123){
-        if(count[j++]>0){
-            arr[i++]=count[j];
-        }
-    }
-    strcpy(input,arr);
-    cout<<input;
-
-}
-
-*/
 void removeConsecutiveDuplicates(char input[]){
 
     int i=1,j=1;
@@ -119,12 +86,31 @@ void reverseEachWord(char input[]) {
 }
 
 
+void removeAllOccurrencesOfChar(char input[], char c) {
+    // Write your code here
+    int i=0;
+    while(i<strlen(input)){
+        if(input[i]==c){
+            int j=i;
+            while(j<strlen(input)-1){
+                input[j]=input[j+1];
+                j++;
+            }
+            input[j]='\0';
+            continue;
+        }
+        i++;
+    }
+}
+
 int main()
 {
     int size = 1e6;
     char str[size];
     cin.getline(str, size);
-    reverseEachWord(str);
+    char c;
+    cin >> c;
+    removeAllOccurrencesOfChar(str, c);
     cout << str;
     return 0;
 }
