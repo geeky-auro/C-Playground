@@ -57,6 +57,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Reverse Word Wise- **https://gist.github.com/geeky-auro/8d66654079dafddec4cfa3c511e4e27c** <br>
 🌟Print All Substrings- **https://gist.github.com/geeky-auro/186be106ffd21e3253411df9899bc7d2** <br>
 ⭐Column Wise Sum- **https://gist.github.com/geeky-auro/8e2ff6c0ac065b2a534fc17a16ae9fff** <br>
+⭐Print 2D Array- **https://gist.github.com/geeky-auro/4a42ffe3e616914d7b3febf09b990e92** <br>
 🌟Largest Row or Column- **https://gist.github.com/geeky-auro/0478deecb312a179da2e3de62395a925** <br>
 ⭐Wave Print- **https://gist.github.com/geeky-auro/4dacf06fc71fcd566d5b6c2c7ca144c7** <br>
 🌟Check Permutation- **https://gist.github.com/geeky-auro/05dff08438fe744d005c4bde1b1e0e88** <br>
