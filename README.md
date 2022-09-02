@@ -66,6 +66,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Remove character- **https://gist.github.com/geeky-auro/f1ba2240cc2ae0259c754010ae5cf15b** <br>
 🌟Highest Occuring Character- **https://gist.github.com/geeky-auro/d201f6d0955d5d5ecba8c01840297751** <br>
 🌟Compress the String- **https://gist.github.com/geeky-auro/564b5513cf2300bfd14853d31a11435b** <br>
+🌟Minimum Length Word- **https://gist.github.com/geeky-auro/9cfe0e0ad8bd22a9437796ee2da08ed7** <br>
+⭐Leaders in array- **https://gist.github.com/geeky-auro/113a8a319a0a95931ebba55d29f0aea1** <br>
 ## Side Notes
 ✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
 ## Searching and Sorting
