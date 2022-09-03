@@ -54,8 +54,6 @@ int sum(int a,int b){
 
 int main()
 {
-    //
-    print();
    // cout<<sum(5,6);
     explainpairs();
     return 0;
