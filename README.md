@@ -70,6 +70,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Leaders in array- **https://gist.github.com/geeky-auro/113a8a319a0a95931ebba55d29f0aea1** <br>
 ## Side Notes
 ✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
+✨STL in C++➖ **https://gist.github.com/geeky-auro/05c7dad534855a194f2ee3119da50df0** <br>
 ## Searching and Sorting
 🌟Sort 0 1- **https://gist.github.com/geeky-auro/5037ea51cac378ae50439f7bedae3458** <br>
 ⭐Linear Search- **https://gist.github.com/geeky-auro/c798d745d2341df42070b1a8e5f4cf3f#file-linear_search-cpp** <br>
