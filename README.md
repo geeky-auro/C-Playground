@@ -31,6 +31,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Searching and Sorting: https://github.com/amazon01FireStick/OnlyPictures/blob/main/Searching%20and%20Sorting%20Algorithm.pdf <br>
 🌟cin.getline()- https://www.geeksforgeeks.org/getline-string-c/ <br>
 🌟Characters and 2D Arrays- https://github.com/amazon01FireStick/OnlyPictures/blob/main/characters%20and%202D%20Arrays.pdf <br>
+🌟Pointers in CPP: https://github.com/geeky-auro/C-Playground/blob/main/Final%20test/pointersincpp.pdf <br>
+
 ## Some Important Gists
 🌟Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
 ⭐cin.get()- **https://gist.github.com/geeky-auro/37dcc6df57abfaf5ac4983886b46715c** <br>
@@ -71,6 +73,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ## Side Notes
 ✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
 ✨STL in C++➖ **https://gist.github.com/geeky-auro/05c7dad534855a194f2ee3119da50df0** <br>
+🌟Pointers in CPP➖ **https://onlinegdb.com/Hfl8sqfSp**
 ## Searching and Sorting
 🌟Sort 0 1- **https://gist.github.com/geeky-auro/5037ea51cac378ae50439f7bedae3458** <br>
 ⭐Linear Search- **https://gist.github.com/geeky-auro/c798d745d2341df42070b1a8e5f4cf3f#file-linear_search-cpp** <br>
