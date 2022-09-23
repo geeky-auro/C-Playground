@@ -23,5 +23,15 @@ int main(){
 
     cout<<*p2<<endl;
     j++;
+
+    /// @brief Special Cases
+    /// @return 
+    int * const p2=&i;
+    /// @brief Error Code 
+    /// @return 
+    int const * const p3=&i;
+    p3=&j;
+    (*p3)++;
+
     return 0;
 }
