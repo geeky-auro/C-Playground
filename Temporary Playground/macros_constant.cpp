@@ -2,9 +2,13 @@
 using namespace std;
 #define PI 3.14
 
-#define MULTIPLY(a,b)  (a*b);
+#define MULTIPLY(a,b)  (a*b)
 // Defining Global Variables..!
 int a=10;
+
+#define MULTIPLY1(a) a*a
+
+#define SQUARE(x) x*x
 
 void incre_a1(int a){
     a++;
@@ -27,6 +31,12 @@ int main(){
     **/
     cout<<"Multiplication of Defined Function is "<< MULTIPLY(3+2,5+3);
     cout<<endl;
+    cout<<"Multiplication:"<<MULTIPLY1(7);
+    cout<<endl;
+    int l=36/SQUARE(6);
+    // 36/6*6=6*6=36
+    cout<<endl;
+    cout<<l<<endl;
     int r=5;
     {
         int a=10;
