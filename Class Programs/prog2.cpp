@@ -96,7 +96,6 @@ s1[i].roll=s1[minIndex].roll;
 s1[minIndex].roll=tempo;
 }
 
-
 for(int i=0;i<n;i++)
 {
 cout<<"Details of the Student-"<<i<< endl;
