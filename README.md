@@ -89,6 +89,11 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Check Array Rotation- **https://gist.github.com/geeky-auro/0c4a4650c3bdd1378d32230930457b70** <br>
 🌟Sort 0 1 2- **https://gist.github.com/geeky-auro/689bfecfcf870357e87898a759846308** <br>
 
+# DSA
+
+## Recursion
+⭐Power- **https://gist.github.com/geeky-auro/b15470e15bb5f4544c96eef51f0de47d**
+⭐Print Numbers- **https://gist.github.com/geeky-auro/c938f8a811aa5cc2dbf0583904348307**
 
 
 ## Additional Questions for Practice:-
