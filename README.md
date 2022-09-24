@@ -32,6 +32,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟cin.getline()- https://www.geeksforgeeks.org/getline-string-c/ <br>
 🌟Characters and 2D Arrays- https://github.com/amazon01FireStick/OnlyPictures/blob/main/characters%20and%202D%20Arrays.pdf <br>
 🌟Pointers in CPP: https://github.com/geeky-auro/C-Playground/blob/main/Final%20test/pointersincpp.pdf <br>
+🌟Dynamic Allocation in C++ : https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Dynamic%20Allocation.pdf <br>
 
 ## Some Important Gists
 🌟Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
