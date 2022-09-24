@@ -14,5 +14,9 @@ int main(){
     int const * const q=&k;
     /// @brief Here you cannot update the address as well as value of the variable pointed by the pointer 
     /// @return 
+        const int p = 5;
+        int const *q = &p;
+    /// @brief Here we cannot Update value of p as well as (*q)++
+    /// @return 
     return 0;
 }
