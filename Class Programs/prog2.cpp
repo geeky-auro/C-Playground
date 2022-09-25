@@ -27,7 +27,7 @@ for(int j=0;j<5;j++){
 cin>>s1[i].marks[j];
 }
 }
-
+cout<<"-----------------------------------"<<endl;
 // Total Marks and Percentage of all students
 struct extros q2[n];
 for(int i=0;i<n;i++){
@@ -42,7 +42,7 @@ q2[i].percent=(sum/500.0)*100.0;
 
 for(int i=0;i<n;i++)
 {
-cout<<"Details of the Student-"<<i<< endl;
+cout<<"Details of the Student-"<<i+1<< endl;
 cout<<"Name of the Student "<<s1[i].st<<endl;
 cout<<"Roll of the Student "<<s1[i].roll<<endl;
 cout<<"Marks of the Student "<<endl;
@@ -63,6 +63,7 @@ cin>>start;
 cout<<"Enter Ending Range "<<endl;
 int end;
 cin>>end;
+cout<<"Students in the given Range:-"<<endl;
 for(int i=0;i<n;i++){
 
 if(q2[i].percent>=start && q2[i].percent<=end){
@@ -75,6 +76,8 @@ cout<<"Marks Secured is "<<q2[i].total<<endl;
 }
 
 // Sort the Array in Ascending Order of Marks..!
+cout<<"-----------------------------------"<<endl;
+cout<<"In Sorted Order"<<endl;
 for(int i=0;i<n-1;i++){
 int minIndex=i,min=q2[i].total;
 for(int j=i+1;j<n;j++){

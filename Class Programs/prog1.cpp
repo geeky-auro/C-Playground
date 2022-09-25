@@ -8,7 +8,7 @@ int marks[5];
 };
 
 int main(){
-struct stud s1;
+ stud s1;
 cout<<"Enter Name of the Student "<<endl;
 cin.getline(s1.st,100,'\n');
 

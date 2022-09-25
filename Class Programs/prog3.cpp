@@ -2,7 +2,7 @@
 using namespace std;
 struct employee{
     int id;
-    char name[20];
+    string name;
     int age;
     int basic,gross;
     float DA,HRA;
@@ -18,7 +18,7 @@ int main(){
     cout<<"Enter Id of the Employee "<<endl;
     cin>>(e+i)->id;
     cout<<"Enter Name of the Employee "<<endl;
-    scanf("%s", &e[i].name);
+    getline(cin >> ws, (e+i)->name);
     cout<<"Enter Age of the Employee "<<endl;
     cin>>(e+i)->age;
     cout<<"Enter Basic Salary of the Employee "<<endl;
