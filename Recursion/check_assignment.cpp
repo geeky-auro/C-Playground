@@ -11,7 +11,7 @@ void print(int n){
         cout << n << "";
         return;
     }
-    print(n --);
+    print(n -1);
     cout << n << "";
 }
 
