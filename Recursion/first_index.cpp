@@ -38,7 +38,7 @@ int main(){
   
     int *input = new int[n];
     
-    for(int i = 0; i < n; i++) {
+    for(int i = 0; i < 5; i++) {
         cin >> input[i];
     }
     
