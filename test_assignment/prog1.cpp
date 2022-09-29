@@ -18,7 +18,7 @@ class Distance{
             dist_in=dist_in-12;
             dist_ft++;
         }
-        cout<<"The Calculated Distance is Feet:"<<dist_ft<<"Inch "<<dist_in<<endl;
+        cout<<"The Calculated Distance is Feet:"<<dist_ft<<" Inch "<<dist_in<<endl;
     }
     Distance add(Distance ob1){
         Distance d;
@@ -31,6 +31,7 @@ class Distance{
     }
     p2_ft=d.dist1_ft;
     pt_in=d.dist1_in;
+    cout<<"The Calculated Distance is Feet:"<<d.dist1_ft<<" Inch "<<d.dist1_in<<endl;
         return d;
     }
 
@@ -53,6 +54,6 @@ int main(){
     c1.inputData(dis1,ft_1);
     c2.inputData(dis2,ft_2);
     c4=c1.add(c2);
-    cout<<"The Calculated Distance is Feet:"<<c4.p2_ft<<"Inch "<<c4.pt_in<<endl;
+    
     return 0;
 }
