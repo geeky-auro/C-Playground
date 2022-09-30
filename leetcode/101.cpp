@@ -15,12 +15,29 @@ string smallest(vector <string> arr){
 
 }
 
+bool icheckSimilar(vector <string> arr){
+    bool isSimilar=false;
+    for(int i=1;i<arr.size();i++){
+        if (arr[i-1]==arr[i])
+        {
+            isSimilar=true;
+        }
+        else{
+            isSimilar=false;
+        }
+        
+    }
+    return isSimilar;
+}
+
 void alt(vector <string> &arr){
     bool isflag=false;
     string st_cmn="";
-    for(int i=0;i<smallest(arr).length() && i<arr.size();i++){
-        cout<<st_cmn<<endl;
+   
+    
+    for(int i=0;i<smallest(arr).length();i++){
         char ch=smallest(arr).at(i);
+        isflag=false;
         for(int k=0;k<arr.size();k++){
             char m=arr[k].at(i);
             if (m==ch)
@@ -37,6 +54,7 @@ void alt(vector <string> &arr){
         if (isflag)
         {
           st_cmn=st_cmn+ch;
+          continue;
         }
         else{
             break;
@@ -48,7 +66,7 @@ void alt(vector <string> &arr){
 }
 
 int main(){
-     vector <string> str={"flower","flower","flower","flower"};
+     vector <string> str={""};
     alt(str);
     return 0;
 }
