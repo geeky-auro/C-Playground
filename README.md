@@ -31,8 +31,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Searching and Sorting: https://github.com/amazon01FireStick/OnlyPictures/blob/main/Searching%20and%20Sorting%20Algorithm.pdf <br>
 🌟cin.getline()- https://www.geeksforgeeks.org/getline-string-c/ <br>
 🌟Characters and 2D Arrays- https://github.com/amazon01FireStick/OnlyPictures/blob/main/characters%20and%202D%20Arrays.pdf <br>
-🌟Pointers in CPP: https://github.com/geeky-auro/C-Playground/blob/main/Final%20test/pointersincpp.pdf <br>
-🌟Dynamic Allocation in C++ : https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Dynamic%20Allocation.pdf <br>
+
 
 ## Some Important Gists
 🌟Diamond Pattern: **https://gist.github.com/geeky-auro/e2b747dc7ce4b77b298d5275a541f3f9** <br>
@@ -71,6 +70,10 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Compress the String- **https://gist.github.com/geeky-auro/564b5513cf2300bfd14853d31a11435b** <br>
 🌟Minimum Length Word- **https://gist.github.com/geeky-auro/9cfe0e0ad8bd22a9437796ee2da08ed7** <br>
 ⭐Leaders in array- **https://gist.github.com/geeky-auro/113a8a319a0a95931ebba55d29f0aea1** <br>
+## Some Important PDF's
+🌟Pointers in CPP: https://github.com/geeky-auro/C-Playground/blob/main/Final%20test/pointersincpp.pdf <br>
+🌟Dynamic Allocation in C++ : https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Dynamic%20Allocation.pdf <br>
+🌟Recursion: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Recursion-1%20PDF.pdf <br>
 ## Side Notes
 ✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
 ✨STL in C++➖ **https://gist.github.com/geeky-auro/05c7dad534855a194f2ee3119da50df0** <br>
@@ -94,7 +97,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ## Recursion
 ⭐Power- **https://gist.github.com/geeky-auro/b15470e15bb5f4544c96eef51f0de47d**
 ⭐Print Numbers- **https://gist.github.com/geeky-auro/c938f8a811aa5cc2dbf0583904348307**
-
+🌟Recursion Repo- **https://github.com/geeky-auro/C-Playground/tree/main/Recursion**
 
 ## Additional Questions for Practice:-
 🖋Binary Search: https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/ <br>
