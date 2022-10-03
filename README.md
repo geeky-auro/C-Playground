@@ -70,10 +70,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Compress the String- **https://gist.github.com/geeky-auro/564b5513cf2300bfd14853d31a11435b** <br>
 🌟Minimum Length Word- **https://gist.github.com/geeky-auro/9cfe0e0ad8bd22a9437796ee2da08ed7** <br>
 ⭐Leaders in array- **https://gist.github.com/geeky-auro/113a8a319a0a95931ebba55d29f0aea1** <br>
-## Some Important PDF's
-🌟Pointers in CPP: https://github.com/geeky-auro/C-Playground/blob/main/Final%20test/pointersincpp.pdf <br>
-🌟Dynamic Allocation in C++ : https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Dynamic%20Allocation.pdf <br>
-🌟Recursion: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Recursion-1%20PDF.pdf <br>
+
 ## Side Notes
 ✨2D Arrays➖ **https://gist.github.com/geeky-auro/40c724eaea1fab15213a465f6620880d** <br>
 ✨STL in C++➖ **https://gist.github.com/geeky-auro/05c7dad534855a194f2ee3119da50df0** <br>
@@ -93,6 +90,13 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Sort 0 1 2- **https://gist.github.com/geeky-auro/689bfecfcf870357e87898a759846308** <br>
 
 # DSA
+
+## Some Important PDF's
+🌟Pointers in CPP: https://github.com/geeky-auro/C-Playground/blob/main/Final%20test/pointersincpp.pdf <br>
+🌟Dynamic Allocation in C++ : https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Dynamic%20Allocation.pdf <br>
+🌟Intro to Recursion: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/recursion.pdf <br>
+🌟Recursion: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Recursion-1%20PDF.pdf <br>
+🌟
 
 ## Recursion
 ⭐Power- **https://gist.github.com/geeky-auro/b15470e15bb5f4544c96eef51f0de47d**
