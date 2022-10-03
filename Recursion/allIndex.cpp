@@ -14,7 +14,7 @@ int allIndexes(int input[], int size, int x, int output[]) {
  
     // Getting the recursive answer
       int smallAns = allIndexes(input, size - 1, x, output);
-     cout<<"Small Answer getting executed with a value "<<smallAns<<endl;
+      cout<<"Small Answer getting executed with a value "<<smallAns<<endl;
       cout<<"SIze "<<size<<endl;
       // If the last element of input array is equal to x
     if(input[size - 1] == x)
