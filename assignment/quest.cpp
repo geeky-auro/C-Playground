@@ -4,9 +4,7 @@ class Test{
     public:
     int *p;
     double *qo;
-    Test(){
-        p=new int(1);
-    }
+
     Test(double *q){
         qo=new double(*q);
     }
