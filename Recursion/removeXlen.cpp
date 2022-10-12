@@ -7,7 +7,6 @@ int length(char ch[]){
     }
     int ans=length(ch+1);
     return ans+1;
-    
 }
 
 void removeX(char ch[]){
