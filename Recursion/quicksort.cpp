@@ -18,53 +18,43 @@ using namespace std;
 	}
 		
 */
-void partition(int *arr,int si,int ei){
-        for (int i = 0; i < ei; i++)
-    {
-        cout<<arr[i]<<" ";
-    }
-    int n=(si+ei)/2;
-    // swap 1
-    int temp=arr[si];
-    arr[si]=arr[n];
-    arr[n]=temp;
-    int j=si,k=ei;
-    bool l1=true,l2=true;
-    while (j<n && k>n)
-    {
-        if (!(arr[j]<arr[n]))
-        {
-        l1=false;
-        }else{
-            l2=true;
-            j++;
-        }
 
-        if (!(arr[k]>arr[n]))
-        {
-            l2=false;
-        }else{
-            k--;
-            l2=true;
-        }
-        
-        if (l1==false && l2==false)
-        {
-            int temp=arr[j];
-            arr[j]=arr[k];
-            arr[k]=temp;
-        }   
-    }
+int partition(int *input,int start,int end){
 
-    for (int i = 0; i < ei; i++)
-    {
-        cout<<arr[i]<<" ";
-    }
-    
+    int pivot=input[end];
+    // 1st Swapping of pivot with mid
+
+     int i = (start - 1); // 0-1  
+  
+    for(int j = start; j <= end-1 ; j++)  
+    {  
+        // If current element is smaller than the pivot  
+        if (input[j] < pivot)  
+        {  
+            i++; // increment index of smaller element  
+            int t = input[i];  
+            input[i] = input[j];  
+            input[j] = t;  
+        }  
+
+    }  
+    int t = input[i+1];  
+    input[i+1] = input[end];  
+    input[end] = t;  
+    // Pivot Element Index
+    return i+1;
+
 }
 void quickSort(int input[], int start, int end)
 	{
-        partition(input,start,end);
+        if (start>=end)
+        {
+            return;
+        }
+        
+        int pIndex=partition(input,start,end);
+        quickSort(input,start,pIndex-1);
+        quickSort(input,pIndex+1,end);
     		// your code goes here 
 	}
 void quickSort(int input[], int size) {
