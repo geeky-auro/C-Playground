@@ -24,6 +24,9 @@ public:
 A2(int data_B){
     this->data_B=data_B;
 }
+void GetData(){
+cout << "\nData in A: "; cout<<data_B;
+}
 friend void exchangeData(A1&a, A2 &b);
 };
 // Defining the friend functions of both classes;
