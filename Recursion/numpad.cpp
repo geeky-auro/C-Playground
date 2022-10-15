@@ -133,7 +133,10 @@ int keypad(int num, string output[]){
 
 */
 
-int keypad(int input,string output[]){
+// This one is efficient one ..>!
+
+    int keypad(int input,string output[]){
+    // 23
     if (input==0)
     {
     output[0]=" ";
@@ -162,6 +165,8 @@ int keypad(int input,string output[]){
     return smallOutputSize*choice.length();
    
 }
+
+
 
 int main(){
     int num;
