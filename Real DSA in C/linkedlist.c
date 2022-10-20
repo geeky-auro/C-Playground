@@ -1,3 +1,4 @@
+// Linked List Creation in C..!
 #include<stdio.h>
 #include<stdlib.h>
 void createList();
@@ -9,10 +10,8 @@ struct node
 };
 typedef struct node node;
 node *head=NULL;
-void help(){
-    
-   printf("I will be there ;)");
-    
+void printData(){
+        
     if (head==NULL)
     {
        printf("No ELement Present \n");
@@ -33,6 +32,25 @@ void help(){
     }
 
 }
+
+void insertDataAtBeginning(){
+    printf("Data to be Inserted");
+    node *temp;
+    temp=(node *) malloc(sizeof(node));
+    printf("Enter Data Element \n");
+    scanf("%d",&temp->data);
+    if (head==NULL)
+    {
+        printf("No ELements Present \n");
+        head=temp;
+    }
+    else{
+        node *ptr=NULL;
+        ptr=head->next;
+        head=ptr;
+    }
+
+}
 int main(){
 printf("Welcome to Linked List Chapter-1\n");
 printf("Enter no. of Nodes to be created \n ");
@@ -43,8 +61,8 @@ for (int i = 0; i < n; i++)
 {
     createList();
 }
-help();
-
+insertDataAtBeginning();
+printData();
 
 return 0;
 }
