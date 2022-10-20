@@ -63,7 +63,7 @@ void deleteLastNode(node * head){
     {
         exit(1);
     }
-    if (l==1)
+    if (head->next==head)
     {
         free(head);
         head=NULL;
@@ -80,11 +80,33 @@ void deleteLastNode(node * head){
         free(p);
         p=NULL;
         q=NULL;
-        
     }
 
 }
+void printElements(){
+    if (head==NULL)
+    {
+        printf("No elements are present ;)");
+        return;
+    }
+    else{
+        node *p;
+        p=head;
+        p=p->next;
+        while (p->next!=head)
+        {
+            printf("%d \n",p->data);
+            p=p->next;
+        }
+        p->next=head;
+        printf("%d \n",p->data);
+        free(p);
+        p=NULL;
+    }
+    
+}
 int main(){
+
 printf("Welcome to Linked List Chapter-1\n");
 printf("Enter no. of Nodes to be created \n ");
 int n;
@@ -94,6 +116,10 @@ for (int i = 0; i < n; i++)
 {
     createList();
 }
+// printf("%d",listLength(head));
+// deleteLastNode(head);
+printf("%d is size",listLength(head));
+printElements();
 
 return 0;
 }
@@ -112,6 +138,7 @@ void createList(){
     if (head==NULL)
     {
         head=temp;
+        head->next=head;
     }else{
         node *p=head;
         while (p->next!=head)
