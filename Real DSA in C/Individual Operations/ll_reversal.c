@@ -2,7 +2,7 @@
 #include<stdlib.h>
 struct node{
     int data;
-    // int data kaushik data
+
     struct node *next;
 };
 typedef struct node node;

@@ -1,3 +1,4 @@
+// For Algorithm Working and Explanation Refer notebook
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
