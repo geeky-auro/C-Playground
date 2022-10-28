@@ -23,6 +23,7 @@ void showRec(node *head){
     showRec(head->next);
     printf("%d ",head->data);
     showRec(head->next);
+    printf("%d ",head->data);
 }
 int main(){
     node *first,*second,*third,*fourth,*head,*fifth;
