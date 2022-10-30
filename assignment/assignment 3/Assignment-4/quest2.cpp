@@ -13,6 +13,7 @@ using namespace std;
     private:
         int ft,in;
     public:
+    int fti;
         obj1(int ft,int in);
         friend void compare(obj1 &ob1,obj2 &obj2);
     };
@@ -59,6 +60,8 @@ using namespace std;
  }   
 
 static void solve(){
+    obj1 objii(6,54);
+    objii.fti=64;
 cout<<"Enter Foot and Inches Separated by a single Space"<<endl;
 int ft,in;
 cin>>ft>>in;
