@@ -1,22 +1,24 @@
-#include <iostream>
-#include <string.h>
-#include <stdio.h>
-#include<stdlib.h>
+#include<iostream>
 using namespace std;
+
+// char * allocateMemory();
+inline void kit(){
+  cout<<"Hello:";
+}
+
 int main()
 {
-//   char name[50];
-//   char he[69];
-  int *name=nullptr;
-  for (int i = 0; i < 5; i++)
-  {
-   name+i=new int;
-   cin>>*(name+i);
-  }
-  
-//   gets(name);
-//    gets(he);
-//    puts(name);
-//    puts(he);
-   return 0;
+  int num[]={1,2,3,4,5,6};
+  cout<<2[num]<<endl;
+  num[1]==1[num]?cout<<"Success \n" : cout<<"Error \n";
+  int *ptr=nullptr;
+  delete ptr;
+  *ptr=5;
+  // cout<<allocateMemory()<<endl;
+  kit();
+  return 1;
 }
+// char * allocateMemory(){
+//   char *str="Memory Allocation";
+//   return str;
+// }
