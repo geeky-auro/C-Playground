@@ -63,17 +63,7 @@ public:
         float percent=(total/600.0)*100.0;
         cout<<"Total Marks "<<total<<"Percentage Secured is "<<percent<<endl;
     }
-    Result(/* args */);
-    ~Result();
 };
-
-Result::Result(/* args */)
-{
-}
-
-Result::~Result()
-{
-}
 
 
 int main()
