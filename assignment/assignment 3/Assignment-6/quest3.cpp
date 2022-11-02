@@ -55,8 +55,6 @@ public:
 
 class Result:public Sports,public test
 {
-private:
-    /* data */
 public:
     void DisplayDetails(){
         int total=Sports::SportScore+test::sum;
