@@ -96,7 +96,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Dynamic Allocation in C++ : https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Dynamic%20Allocation.pdf <br>
 🌟Intro to Recursion: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/recursion.pdf <br>
 🌟Recursion: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Recursion-1%20PDF.pdf <br>
-🌟
+🌟Time and Space Complexity: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Time%20and%20Space%20Complexity.pdf <br>
 
 ## Recursion
 ⭐Power- **https://gist.github.com/geeky-auro/b15470e15bb5f4544c96eef51f0de47d**
