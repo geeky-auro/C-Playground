@@ -55,7 +55,9 @@ public:
 int main()
 {
     Rectangle r1;
-    r1.RectangleInput();
+    r1.CircleInput();
+    r1.area();
+    // r1.RectangleInput();
     Circle c1;
     c1.CircleInput();
     Triangle t1;

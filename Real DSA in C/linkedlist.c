@@ -27,10 +27,8 @@ void printData(){
         if (p->next==NULL)
         {
             printf("%d \n",p->data);
-        }
-        
+        }    
     }
-
 }
 
 void insertDataAtBeginning(){
@@ -49,7 +47,6 @@ void insertDataAtBeginning(){
         ptr=head->next;
         head=ptr;
     }
-
 }
 int main(){
 printf("Welcome to Linked List Chapter-1\n");
