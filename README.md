@@ -99,7 +99,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Recursion: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Recursion-1%20PDF.pdf <br>
 🌟Time and Space Complexity: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Time%20and%20Space%20Complexity.pdf <br>
 🌟OOPS 1: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/OOPS%201.pdf <br>
-🌟OOPS 2:https://github.com/geeky-auro/C-Playground/blob/main/PDf's/OOPS%202.pdf <br>
+🌟OOPS 2: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/OOPS%202.pdf <br>
+🌟Linked List: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Linked%20List.pdf <br> 
 
 ## Recursion
 ⭐Power- **https://gist.github.com/geeky-auro/b15470e15bb5f4544c96eef51f0de47d**
