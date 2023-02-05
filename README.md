@@ -107,6 +107,8 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ⭐Templates: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Templates.pdf <br>
 ⭐Stack: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Stack.pdf <br>
 🌟Queue: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Queues.pdf <br>
+⭐Trees: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Trees.pdf <br>
+⭐Vectors: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Vectors.pdf <br>
 
 ## Test
 🌟 Assigment-3 : https://github.com/geeky-auro/C-Playground/tree/main/Test%20LL%20and%20Stacks <br>
@@ -129,5 +131,3 @@ In any large system, you typically find C++ in the lower-level and performance-c
 ## Certificate:-
 📜Certificate of Completion: **https://github.com/amazon01FireStick/OnlyPictures/blob/main/CN_Certificate_2807b1322734bdaa.pdf** <br>
 📜Certificate of Excellence: **https://github.com/amazon01FireStick/OnlyPictures/blob/main/CN_Certificate_b815f24fef97cd3e.pdf** <br>
-
-
