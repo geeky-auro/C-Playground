@@ -109,6 +109,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Queue: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Queues.pdf <br>
 ⭐Trees: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Trees.pdf <br>
 ⭐Vectors: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Vectors.pdf <br>
+🌟Binary Trees: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Binary%20Trees.pdf <br>
 
 ## Test
 🌟 Assigment-3 : https://github.com/geeky-auro/C-Playground/tree/main/Test%20LL%20and%20Stacks <br>
