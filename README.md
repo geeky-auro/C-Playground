@@ -112,6 +112,7 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟Binary Trees: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Binary%20Trees.pdf <br>
 🌟Priority Queues: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/PriorityQueue_Notes.pdf <br>
 🌟HashMaps: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/HashMaps.pdf <br>
+🌟Trie and Huffman Coding: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Trie%20and%20Huffman%20Coding.pdf <br>
 
 ## Test
 🌟 Assigment-3 : https://github.com/geeky-auro/C-Playground/tree/main/Test%20LL%20and%20Stacks <br>
