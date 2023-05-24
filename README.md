@@ -114,7 +114,9 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🌟HashMaps: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/HashMaps.pdf <br>
 🌟Trie and Huffman Coding: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Trie%20and%20Huffman%20Coding.pdf <br>
 🌟Dynamic Programming: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Dynamic%20Programming%20-1.pdf <br>
+🌟Dynamic Programming 2: https://github.com/geeky-auro/C-Playground/blob/main/PDf's/DP-2.pdf <br>
 🌟Rat in the Maze - BackTracking ;) https://github.com/geeky-auro/C-Playground/blob/main/PDf's/Rat%20in%20the%20Maze%20-%20Backtracking.pdf <br>
+
 
 ## Test
 🌟 Assigment-3 : https://github.com/geeky-auro/C-Playground/tree/main/Test%20LL%20and%20Stacks <br>
