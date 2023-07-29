@@ -17,6 +17,16 @@
         }
     }
 
+    struct HashMap{
+        int n;
+        int key[n];
+    
+    }
+
+    void most_repeating_Element(int vect[],int n){
+
+    }
+
 int main(){
     int x;
     printf("Enter the size of the Array \n");
