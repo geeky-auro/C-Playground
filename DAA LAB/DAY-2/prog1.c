@@ -20,20 +20,28 @@ int dec_to_bin(int no){
     return dig;
 }
 
-int main(){
+int dec_bin_updated(int no,int ans,int count){
+    if(no<=0){
+        return ans;
+    }else{
+        return dec_bin_updated(no/2,ans+powi(10,count++)*(no%2),count);
+    }
+}
+
+int main(int argc,char **argv){
     
     FILE* inputFile,*outputFile;
     double number;
     char ch;
     
-    inputFile = fopen("input.dat","r");
+    inputFile = fopen(argv[1],"r");
     if(inputFile==NULL){
         perror("Error in Opening the File");
         return 1;
     }
 
     // Open the Output FIle for Writing
-    outputFile=fopen("output.dat","w");
+    outputFile=fopen(argv[2],"w");
     if(outputFile==NULL){
         perror("Error opening the output file");
         fclose(inputFile);
@@ -45,7 +53,7 @@ int main(){
         // Write your function to compute on numbers
         // solve()
 
-        fprintf(outputFile,"%.32d\n",dec_to_bin(number));
+        fprintf(outputFile,"%.32d\n",dec_bin_updated(number,0,0));
     }
 
     fclose(inputFile);
