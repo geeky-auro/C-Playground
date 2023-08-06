@@ -18,6 +18,48 @@ In any large system, you typically find C++ in the lower-level and performance-c
 🔸C++ should work alongside other existing programming languages, rather than fostering its own separate and incompatible programming environment.<br>
 🔸If the programmer's intent is unknown, allow the programmer to specify it by providing manual control. <br>
 
+## Reading and Writing to a File
+~~~
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    
+    FILE* inputFile,*outputFile;
+    double number;
+    char ch;
+    
+    inputFile = fopen("input.dat","r");
+    if(inputFile==NULL){
+        perror("Error in Opening the File");
+        return 1;
+    }
+
+    // Open the Output FIle for Writing
+    outputFile=fopen("output.dat","w");
+    if(outputFile==NULL){
+        perror("Error opening the output file");
+        fclose(inputFile);
+        return 1;
+    }
+
+
+    while(fscanf(inputFile,"%lf",&number)==1){
+        // Write your function to compute on numbers
+        // solve()
+
+        fprintf(outputFile,"%.2lf\n",result);
+    }
+
+    fclose(inputFile);
+    fclose(outputFile);
+
+    printf("Computation COmpleted");
+    return 0;
+}
+~~~
+
+
 ## Some Important PDF's
 🌟Flowcharts: https://github.com/amazon01FireStick/OnlyPictures/blob/main/flow%20charts.pdf <br>
 🌟Installation of CodeBlocks: https://github.com/amazon01FireStick/OnlyPictures/blob/main/installation.pdf <br>

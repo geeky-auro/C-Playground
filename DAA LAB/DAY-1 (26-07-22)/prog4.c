@@ -17,12 +17,6 @@
         }
     }
 
-    struct HashMap{
-        int n;
-        int key[n];
-    
-    }
-
     void most_repeating_Element(int vect[],int n){
 
     }
