@@ -17,8 +17,26 @@
         }
     }
 
-    void most_repeating_Element(int vect[],int n){
+    int most_repeating_Element(int arr[],int size){
+          int maxCount = 0;   // To keep track of maximum frequency
+    int mostRepeating = 0;  // To store the most repeating element
 
+    for (int i = 0; i < size; i++) {
+        int count = 1;  // Initialize the count for each element
+
+        for (int j = i + 1; j < size; j++) {
+            if (arr[i] == arr[j]) {
+                count++;
+            }
+        }
+
+        if (count > maxCount) {
+            maxCount = count;
+            mostRepeating = arr[i];
+        }
+    }
+
+    return mostRepeating;
     }
 
 int main(){
@@ -31,6 +49,7 @@ int main(){
     }
 
     duplicates(arr,x);
-
+    printf("\n");
+    printf("Most Repeating Element in and Arrays is %d \n",most_repeating_Element(arr,x));
 
 }
